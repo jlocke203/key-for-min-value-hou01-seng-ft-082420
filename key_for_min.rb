@@ -3,6 +3,6 @@
 
 def key_for_min_value(name_hash)
 name_hash.each do |element|
-  name_hash.any? { |element| element << name_hash }  
+  name_hash.each { |element| element << name_hash }  
 end
 end 
